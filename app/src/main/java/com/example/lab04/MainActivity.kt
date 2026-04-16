@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Tarjeta(
                         titulo = "Componente ",
-                        desc = "Contenedor con color.",
+                        desc = "Contenedor con bordes y color.",
                         color = Color(0xFF1A1A1A),
                         accentColor = Color(0xFF00E5FF),
                         modifier = Modifier.padding(innerPadding)
