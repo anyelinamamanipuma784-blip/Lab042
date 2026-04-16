@@ -33,13 +33,13 @@ class MainActivity : ComponentActivity() {
             LAB04Theme() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Tarjeta(
-                        titulo = "Componente ",
+                        titulo = "Componente 1",
                         desc = "Contenedor con bordes y color.",
                         color = Color(0xFF1A1A1A),
                         accentColor = Color(0xFF00E5FF),
                         modifier = Modifier.padding(innerPadding)
                     ) {
-                        Text("", color = Color.White)
+                        Text("Ya estás dentro de una Card", color = Color.White)
                     }
                 }
             }
